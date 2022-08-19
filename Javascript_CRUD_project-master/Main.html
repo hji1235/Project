@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>CRUD_project</title>
+	<link rel="stylesheet" type="text/css" href="CSS.css">
+</head>
+<body>
+	<h1>먹고싶은 음식</h1>
+
+	<form onsubmit="event.preventDefault();operate();">
+		<div class="section1">
+			<label>음식이름</label>
+			<label class="hide" id="error">다시 입력해주세요.</label>
+			<br>
+			<input type="text" placeholder="추가 또는 수정할 내용을 입력하세요." size="30" id="foodName">
+		
+			<input type="submit" value="추가 / 수정">
+			<br>
+			<input type="text" size="35" id="search_foodName" placeholder="검색어를 입력하세요." onkeyup="search();">
+		</div>
+	</form>
+	
+	<br>
+	<div class="section2">
+		<table id="foodList" border="4">
+			<thead>
+				<tr>
+					<th colspan="2" id="foodListHead">음식들</th>
+				</tr>
+			</thead>
+			<tbody>
+				
+			</tbody>
+		</table>
+	</div>
+
+	<div class="section3">
+		<table id="pickedList" border="2">
+			<thead>
+				<tr>
+					<th colspan="2" id="pickedListHead">찜 목록</th>
+				</tr>
+			</thead>
+			<tbody>
+					
+			</tbody>
+		</table>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

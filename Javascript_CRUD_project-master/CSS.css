@@ -1,0 +1,73 @@
+.hide {display: none;}
+
+#error {color: red; font-size: small;}
+
+.section1 {
+    border-style: solid;
+    padding: 10px;
+    margin: auto;
+    width: 40%;
+    text-align: center;
+    
+}
+
+.section2 
+{
+	float: left;
+    border-style: solid;
+    padding : 1%;
+    margin-left: 33%;
+    margin-top: 2%;
+    width: 17%;
+    
+}
+
+.section3
+{
+	float: left;
+	border-style: solid;
+	padding: 8px;
+	margin-left: 3%;
+	margin-top: 2%;
+	width: 10%;
+
+}
+
+#foodListHead
+ {
+ 	padding-right: 100px;
+ 	padding-left: 100px;
+ }
+
+ #pickedListHead
+ {
+ 	padding-right: 45px;
+ 	padding-left: 45px;
+ }
+
+ table
+{
+    border-collapse: collapse;
+}
+
+ input[type=submit] 
+ {
+    width: 15%;
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+h1 {text-align: center;}
+
+#search_foodName
+{
+	margin-right: 11%;
+}
+
+
+
+
